@@ -1,0 +1,38 @@
+.ye {
+    background-color: yellow;
+}
+
+.red {
+    color: red
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.position {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.position-b {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.w100 {
+    width: 100%;
+    height: 100%;
+}
+
+.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
