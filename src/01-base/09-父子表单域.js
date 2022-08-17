@@ -35,7 +35,7 @@ export default class App extends Component {
             <button onClick={() => {
                 this.username.current.clear()
                 this.password.current.clear()
-            }}>取消</button>
+            }}>取消1111</button>
 
         </div>
     }
