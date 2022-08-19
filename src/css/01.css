@@ -36,3 +36,19 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.flex-s {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fixed {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 300px;
+    transform: translate(0px, 50%);
+    background-color: yellow;
+}

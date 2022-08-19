@@ -1,0 +1,24 @@
+@import './basic-color.scss';
+$yellow:yellow;
+$red:red;
+$blue:blue;
+@for $i from 1 through 100 {
+    .pl-#{$i}{
+        padding-left: #{$i}px;
+        
+    }
+    .pr-#{$i}{
+        padding-right: #{$i}px;
+    }
+    .size-#{$i}{
+        font-size: #{$i}px;
+    }
+}
+.color{
+    background-color: $basic-color;
+}
+@each $var in $yellow,$red,$blue {
+    .bg-#{$var}{
+         background: $var;
+    }
+}
