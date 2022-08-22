@@ -55,7 +55,6 @@ class FilmDetail extends Component {
     state = {
         info: ''
     }
-    1111111111
     constructor() {
         super()
         bus.subscribe((value) => {
