@@ -4,6 +4,7 @@ import '../css/01.css'
 import '../css/basic.scss'
 var bus = {
     list: [],
+    arr: [],
     publish(text) {
         this.list.forEach(callback => {
             callback && callback(text)
