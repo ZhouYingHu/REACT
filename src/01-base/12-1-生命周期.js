@@ -26,4 +26,5 @@ export default class App extends Component {
     componentDidUpdate() {
         new BetterScroll('#myreact')
     }
+
 }
