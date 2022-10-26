@@ -1,32 +1,32 @@
 .flex {
-    display: flex;
-    width: 333px;
-    height: 300px;
+  display: flex;
+  width: 333px;
+  height: 300px;
 
 }
 
 .flex div {
-    flex: 1;
-    height: 100px;
-    background-color: red;
-    text-align: center;
-    line-height: 100px;
+  flex: 1;
+  height: 100px;
+  background-color: red;
+  text-align: center;
+  line-height: 100px;
 }
 
 .flex div:nth-child(1) {
-    background-color: yellow;
-    align-self: flex-start;
+  background-color: yellow;
+  align-self: flex-start;
 
 }
 
 .flex div:nth-child(2) {
 
-    align-self: center;
+  align-self: center;
 
 }
 
 .flex div:nth-child(3) {
 
-    align-self: flex-end;
+  align-self: flex-end;
 
 }
